@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --main: #ff4500;
+  --light: #fffdfa;
+  --dark: #111;
+  --grey-1: #333;
+  --grey-2: #999;
+  --grey-3: #ccc;
+  --grey-4: #eee;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.logo {
+  font-family: 'Caveat', cursive;
+}
+
+.transitioning {
+  transition: all 0.5s ;
+}
+
+.text-main {
+  color: var(--main);
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+.text-grey-1 {
+  color: var(--grey-1);
+}
+
+.text-grey-2 {
+  color: var(--grey-2);
+}
+
+.text-grey-3 {
+  color: var(--grey-3);
+}
+
+.text-grey-4 {
+  color: var(--grey-4);
+}
+
+.bg-main {
+  background-color: var(--main);
+}
+
+.bg-light {
+  background-color: var(--light);
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.bg-grey-1 {
+  background-color: var(--grey-1);
+}
+
+.bg-grey-2 {
+  background-color: var(--grey-2);
+}
+
+.bg-grey-3 {
+  background-color: var(--grey-3);
+}
+
+.bg-grey-4 {
+  background-color: var(--grey-4);
+}
+
+.border-main {
+  border-color: var(--main);
+}
+
+.border-light {
+  border-color: var(--light);
+}
+
+.border-dark {
+  border-color: var(--dark);
+}
+
+.border-grey-1 {
+  border-color: var(--grey-1);
+}
+
+.border-grey-2 {
+  border-color: var(--grey-2);
+}
+
+.border-grey-3 {
+  border-color: var(--grey-3);
+}
+
+.border-grey-4 {
+  border-color: var(--grey-4);
+}
