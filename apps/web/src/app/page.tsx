@@ -1,9 +1,12 @@
+import { PageWrapper } from './modules/shared/page-wrapper'
+
 export default function Home() {
   return (
-    <div className='p-10'>
-      <h1 className='text-main text-3xl'>
-        Antikytherea
-      </h1>
-    </div>
+    <PageWrapper>
+      <h1>Welcome to Antikythera</h1>
+      <button className='mt-4 btn btn-dark'>
+        Enter
+      </button>
+    </PageWrapper>
   )
 }

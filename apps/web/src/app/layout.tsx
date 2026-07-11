@@ -1,11 +1,19 @@
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
+import { Poppins, Caveat } from 'next/font/google'
 import './globals.css'
 
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  weight: ['100','200','300','400','500','600','700','800','900'],
+  variable: '--font-poppins',
 })
+
+const caveat = Caveat({
+  subsets: ['latin'],
+  weight: ['400','500','600','700'],
+  variable: '--font-caveat',
+})
+
 
 export const metadata: Metadata = {
   title: 'Antikythera',
@@ -18,10 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang='en'
-      className={poppins.className}
-    >
+    <html lang='en' className={`${poppins.variable} ${caveat.variable}`}>
       <body className='min-h-full flex flex-col'>{children}</body>
     </html>
   )
