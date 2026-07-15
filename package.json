@@ -7,9 +7,13 @@
     "apps/*"
   ],
   "scripts": {
-    "dev:web": "bun --filter web dev"
+    "dev:web": "bun --filter web dev",
+    "lint": "biome check .",
+    "lint:fix": "biome check --unsafe --fix .",
+    "format": "biome format ."
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.5.4",
     "@types/bun": "latest"
   },
   "peerDependencies": {
