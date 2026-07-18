@@ -1,4 +1,5 @@
 export function TerminalContent() {
+
   return (
     <div className='flex justify-center flex-col w-full h-full'>
       <div className='bg-night text-main p-4 terminal border border-doubled border-main w-full'>
@@ -13,6 +14,7 @@ export function TerminalContent() {
               <div>Item 3</div>
               <div>Item 4</div>
             </div>
+            <h1>Ran some experimental tests with Biome and Lefthook</h1>
           </div>
         </div>
       </div>
