@@ -14,7 +14,6 @@ export function TerminalContent() {
               <div>Item 3</div>
               <div>Item 4</div>
             </div>
-            <h1>Ran some experimental tests with Biome and Lefthook</h1>
           </div>
         </div>
       </div>
